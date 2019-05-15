@@ -1,0 +1,1 @@
+{"version":3,"file":"world.js","sources":["../../src/lib/world.js"],"sourcesContent":["export default {\n  init() {\n    console.log('this lib/world module')\n  }\n}\n"],"names":["init","console","log"],"mappings":";;;;;;AAAA,cAAe;IACbA,IADa,kBACN;MACLC,OAAO,CAACC,GAAR,CAAY,uBAAZ;;GAFJ;;;;;;;;"}
