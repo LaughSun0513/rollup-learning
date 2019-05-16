@@ -22,7 +22,7 @@ npm i @babel/core @babel/preset-env @babel/plugin-proposal-object-rest-spread -D
 }
 
 ```
-#开发者模式  生成sourcemap 生成本地服务 引入rollup-plugin-serve
+# 开发者模式  生成sourcemap 生成本地服务 引入rollup-plugin-serve
 ```
 
 import path from 'path';

@@ -1,9 +1,9 @@
-#rollup语法
+# rollup语法
 ```
  rollup -c rollup.config.js 等价 rollup --config rollup.config.js
 ```
 
-#简单配置rollup
+# 简单配置rollup
 ```
 ## commonjs 写法
 const buble = require('rollup-plugin-buble'); //简易版babel

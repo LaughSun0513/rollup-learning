@@ -91,7 +91,7 @@ babel 有很多辅助函数，例如 toArray函数， jsx转化函数。这些�
   module.exports = configList;
 ```
 ----------------------
-#生产模式 -- 不生成sourcemap文件 并压缩代码
+# 生产模式 -- 不生成sourcemap文件 并压缩代码
 ```
   const configList = require('./rollup.config');
   const { uglify } = require('rollup-plugin-uglify');
@@ -111,7 +111,7 @@ babel 有很多辅助函数，例如 toArray函数， jsx转化函数。这些�
 ***********关键内容***************
 # 使用Node 编写编译任务的js`compile_task`
 
-##日志样式输出 -- 利用chalk https://github.com/chalk/chalk
+## 日志样式输出 -- 利用chalk https://github.com/chalk/chalk
 ```
   const chalk = require('chalk');
 

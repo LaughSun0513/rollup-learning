@@ -28,9 +28,9 @@ export default {
 ```
 ----------------------
 # 开发模式  
-## 生成sourcemap文件
-## 生成本地服务引入rollup-plugin-serve localhost:3001
-## 生成监听文件变化的功能
+##### 生成sourcemap文件
+##### 生成本地服务引入rollup-plugin-serve localhost:3001
+##### 生成监听文件变化的功能
 ```
 import path from 'path';
 import serve from 'rollup-plugin-serve';
@@ -60,7 +60,7 @@ config.plugins = [
 export default config;
 ```
 ----------------------
-#生产模式
+# 生产模式
 ```
 import path from 'path';
 import config from './rollup.config';
